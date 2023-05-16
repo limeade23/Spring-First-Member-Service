@@ -1,9 +1,11 @@
 package com.example.memberservice.repository;
 
 import com.example.memberservice.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
+@Repository
 public class MemoryMemberRepository implements MemberRepository { // 여기서 Option(Alt) + Enter 하면 불러와줌
 
     /*
